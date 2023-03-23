@@ -1,0 +1,57 @@
+/* HOVER COLOR */
+
+svg {
+    fill:#999;
+  }
+
+a svg:hover #telegram,
+a svg:hover #git { 
+  fill: #3763d3;
+}
+
+/* GENERAL STYLES */
+
+body { 
+  background-color: #f9f9f9;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+} 
+
+.parts {
+    width: 1000px;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.part h3{
+    margin-bottom: -10px;
+}
+.pict {
+    width: 450px;
+}
+
+td {
+    vertical-align: top;
+    text-align: left;
+    line-height: 30px;
+    font-size: 25px;
+
+}
+
+.contacts h3 {
+    margin-top: 0px;
+}
+
+
+a { 
+  outline: none; 
+  border: 0; 
+  text-decoration: none; 
+}
+a svg #telegram,
+a svg #git { 
+  transition: 400ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 400ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
